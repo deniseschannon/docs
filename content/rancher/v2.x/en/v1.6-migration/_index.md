@@ -4,6 +4,9 @@ weight: 8500
 draft: true
 ---
 
+Rancher 2.0 has been rearchitected and rewritten with the goal of providing a complete management solution for Kubernetes and Docker.  Due to these extensive changes, there is no direct upgrade path from 1.6.x to 2.x, but rather a migration of your 1.6 application workloads into the 2.0 Kubernetes equivalent.  In 1.6, the most common orchestration used was Rancher's own engine called Cattle. The following blogs (but will be converted in an official guide) will help explain and educate our Cattle users on running workloads in a Kubernetes environment.  
+
+If you are an existing Kubernetes user on Rancher 1.6, you would need to only review the "Checklist" section to prepare you on what to expect on a new 2.0 Rancher cluster.
 
 ### Checklist for migration of a 1.6 setup to 2.0  
 
